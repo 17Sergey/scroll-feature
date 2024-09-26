@@ -15,14 +15,15 @@ const StyledBlurDiv = styled.div`
     width: 80%;
     left: 10%;
     right: 10%;
-    padding: 32px 16px;
+    padding: 48px 16px;
     border-radius: 8px;
     z-index: 1000;
 
     /* Blur: */
     background-color: rgba(211, 211, 211, 0.1);
+    background-color: rgba(255, 0, 255, 0.2);
     backdrop-filter: blur(8px);
-    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 `;
 
 function App() {
